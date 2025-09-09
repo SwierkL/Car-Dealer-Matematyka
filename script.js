@@ -1,7 +1,6 @@
 const equationArea = document.getElementById("equation-area");
 const input = document.getElementById("answer");
 const gameOverText = document.getElementById("game-over");
-// document.getElementById("fail-screen").style.display = "none";
 
 
 let equations = [];
@@ -39,7 +38,7 @@ function spawnEquation() {
   el.textContent = eq.text;
 
   // Początkowa pozycja X
-  const startLeft = Math.random() * 80 + 10; // od 10% do 90%
+  const startLeft = Math.random() * 60 + 20; // od 10% do 90%
   el.style.left = `${startLeft}%`;
   el.style.top = "0px";
 
@@ -77,7 +76,7 @@ equations.forEach((eq) => {
   eq.el.style.top = eq.y + "px";
 
   // Oscylacja w poziomie
-  const xSpeed = 0.05 * delta; // prędkość pozioma (dostosuj jeśli za wolno/szybko)
+  const xSpeed = 0.05 * delta; // prędkość pozioma
   eq.x += eq.direction * xSpeed;
   eq.xTravel += xSpeed;
 
