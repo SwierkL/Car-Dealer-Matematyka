@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Dealer - Matematyka</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="background-overlay"></div>
+    <div id="title-bar">HACKING.EXE</div>
+<!-- Ekran początkowy -->
+    <div id="start-screen">
+    <div id="start-top-bar">
+    <div id="start-top-left">HACKING.EXE</div>
+    <div id="start-top-right">
+    <span class="icon">-</span>
+    <span class="icon">□</span>
+    <span class="icon">X</span>
+    </div>
+    </div>
+  <div class="start-content">
+    <div id="start-icon">👾</div>
+    <div id="start-text">[PRZYGOTUJ SIĘ...]</div>
+    <div id="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+  </div>
+</div>
+<!-- Ekran sukcesu -->
+    <div id="end-screen">
+    <div id="succes-top-bar">
+    <div id="succes-top-left">HACKING.EXE</div>
+    <div id="succes-top-right">
+    <span class="icon">-</span>
+    <span class="icon">□</span>
+    <span class="icon">X</span>
+    </div>
+    </div>
+  <div class="end-content">
+    <div id="end-icon">👾</div>
+    <div id="end-text">[HACK UDANY]</div>
+    <div id="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+    <button id="restart-btn">Zagraj ponownie</button>
+
+  </div>
+</div>
+<!-- Ekran porażki -->
+    <div id="fail-screen">
+    <div id="fail-top-bar">
+    <div id="fail-top-left">HACKING.EXE</div>
+    <div id="fail-top-right">
+    <span class="icon">-</span>
+    <span class="icon">□</span>
+    <span class="icon">X</span>
+    </div>
+    </div>
+  <div class="fail-content">
+    <div id="fail-icon">👾</div>
+    <div id="fail-text">[HACK NIEUDANY]</div>
+    <button id="fail-restart-btn">Zagraj ponownie</button>
+  </div>
+</div>
+
+
+  <div id="game">
+    <div id="game-top-bar">
+    <div id="game-top-left">HACKING.EXE</div>
+    <div id="game-top-right">
+    <span class="icon">-</span>
+    <span class="icon">□</span>
+    <span class="icon">X</span>
+    </div>
+    </div>
+    <h1>[OBLICZ KAŻDE RÓWNANIE MATEMATYCZNE]</h1>
+    <div id="equation-area"></div>
+    <div id="line"></div>
+    <input type="text" id="answer" autocomplete="off" placeholder="Wynik" />
+    <div id="game-over"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
