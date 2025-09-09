@@ -38,7 +38,7 @@ function spawnEquation() {
   el.textContent = eq.text;
 
   // Początkowa pozycja X
-  const startLeft = Math.random() * 60 + 20; // od 10% do 90%
+  const startLeft = Math.random() * 60 + 20; // od 20% do 80%
   el.style.left = `${startLeft}%`;
   el.style.top = "0px";
 
