@@ -132,11 +132,6 @@ h1 {
   text-align: center;
 }
 
-#start-icon {
-  font-size: 64px;
-  margin-bottom: 20px;
-}
-
 #start-text {
   font-size: 24px;
   margin-bottom: 20px;
@@ -207,11 +202,6 @@ h1 {
 
 .end-content {
   text-align: center;
-}
-
-#end-icon {
-  font-size: 64px;
-  margin-bottom: 20px;
 }
 
 #end-text {
@@ -288,11 +278,6 @@ h1 {
 
 .fail-content {
   text-align: center;
-}
-
-#fail-icon {
-  font-size: 64px;
-  margin-bottom: 20px;
 }
 
 #fail-text {
@@ -431,4 +416,12 @@ h1 {
 
 #succes-top-bar .icon {
   cursor: default;
+}
+.logo {
+  object-fit: contain;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
